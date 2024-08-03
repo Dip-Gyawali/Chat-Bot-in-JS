@@ -3,3 +3,104 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.main{
+    position: relative;
+   height: 80%;
+   width: 60%;
+   border-radius: 10px;
+   border: 2px solid black;
+   background-color: #5c5a5a;
+   box-shadow: 2px 2px 20px rgb(251, 255, 0);
+}
+header{
+    background-color: #0f0fa3;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+header h1{
+    text-align: center;
+    font-size: 3vw;
+    text-transform: uppercase;
+    background: linear-gradient(to right,#ff7e5f, #feb47b);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.chatbox{
+    width: 100%;
+    height: 80%;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #424242;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.chatbox li{
+    list-style: none;
+}
+.response{
+    display: flex;
+    gap: 20px;
+    font-size: 1vw;
+    color: white;
+    align-items: center;
+}
+.response p{
+    color: white;
+    background-color: #5c5a5a;
+    font-size: 1vw;
+    padding: 10px;
+    border-radius: 20px;
+}
+.request{
+    display: flex;
+    gap: 20px;
+    font-size: 1vw;
+    color: white;
+    align-items: center;
+    margin-left: auto;
+}
+.request p{
+    color: white;
+    background-color: #5c5a5a;
+    font-size: 1vw;
+    padding: 10px;
+    border-radius: 20px;
+}
+.text-area{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+    background-color:  #5c5a5a;
+    border-radius: 10px;
+}
+.message{
+    font-size: 19px;
+    resize: none;
+    width: 95%;
+    outline: none;
+    border: none;
+    padding: 5px;
+    color: white;
+    background-color: #5c5a5a;
+}
+.chat{
+    font-size: 0.7vw;
+    padding: 0px 10px;
+    border-radius: 20px;
+    background-color: #0f0fa3;
+    cursor: pointer;
+    width: 10%;
+    color:white;
+}
