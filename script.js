@@ -2,7 +2,7 @@ let message = document.querySelector(".message");
 let chat = document.querySelector(".chat");
 let chatbox= document.querySelector('.chatbox');
 let userMessage;
-let apiKey="Your Api Key";
+let apiKey="AIzaSyAsDY9hiiBlTtKHyW0ewf6SkgKMHR7MlUI";
 let apiUrl = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${apiKey}`;
 chat.onclick=sendMessage;
 
